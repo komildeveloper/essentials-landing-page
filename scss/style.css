@@ -1,0 +1,371 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Dosis", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+.container-fluid .navbar .navbar-toggler {
+  outline: none;
+  border: 1px solid #1089d4;
+}
+.container-fluid .navbar .navbar-brand {
+  font: 600 28px "Dosis", sans-serif;
+  color: #3b64d2;
+  padding: 20px 0;
+}
+.container-fluid .navbar .navbar-brand:hover {
+  color: #3b64d2;
+}
+.container-fluid .navbar .nav-item .nav-link {
+  color: #405263;
+  font: 600 18px "Dosis", sans-serif;
+  line-height: 30px;
+  padding: 10px 20px;
+}
+.container-fluid .navbar .nav-item .nav-link:hover {
+  color: #3b64d2 !important;
+}
+.container-fluid .navbar .nav-item .actived {
+  color: #3b64d2;
+}
+.container-fluid .navbar .nav-item .extrenal {
+  font: 600 18px "Dosis", sans-serif;
+  line-height: 30px !important;
+  border: 1px solid #1089d4;
+  border-radius: 10px;
+  padding: 12px 18px !important;
+  margin-left: 10px;
+  margin-right: 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+.container-fluid .navbar .nav-item .extrenal:hover {
+  color: #fff;
+  background: #1089d4;
+  transition: 0.6s;
+}
+.welcome h1 {
+  font: 600 42px "Dosis", sans-serif;
+  color: #071e55;
+  margin: 0 0 20px;
+  line-height: 1.2;
+  width: 80%;
+}
+.welcome p {
+  font: 400 18px "Open Sans", sans-serif;
+  color: #405263;
+  margin: 0 0 30px;
+  line-height: 30px;
+}
+.welcome .blue {
+  display: inline-block;
+  font: 600 18px "Dosis", sans-serif;
+  color: #fff;
+  background: #1089d4;
+  text-decoration: none;
+  padding: 20px 30px;
+  box-shadow: 0px 8px 40px 0 rgba(0, 0, 0, 0.37);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  letter-spacing: 1px;
+  border-radius: 5px;
+  margin: 0 0 25px;
+}
+.welcome .blue:hover {
+  box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.5);
+  background: #3498db;
+  transition: 0.3s ease-in-out;
+}
+.grey {
+  border-top: 0.4px solid #d1cfcf;
+  background: #fafbfc;
+}
+.grey h2 {
+  font: 600 36px "Dosis", sans-serif;
+  color: #071e55;
+  margin: 0 0 10px;
+  line-height: 1.2;
+}
+.grey p {
+  font: 400 18px "Open Sans", sans-serif;
+  color: #7c8595;
+  margin: 0 0 15px;
+  line-height: 28px;
+}
+.grey .owl-carousel .item h3 {
+  font: 600 26px "Dosis", sans-serif;
+  color: #292929;
+  margin: 15px 0;
+  line-height: 1.2;
+}
+.grey .owl-carousel .item p {
+  font: 400 17px "Open Sans", sans-serif;
+  color: #7c8595;
+  margin: 0 0 25px;
+  padding: 0 10px;
+  line-height: 28px;
+}
+.grey .owl-carousel .item .min-blue {
+  display: inline-block;
+  font: 600 16px "Dosis", sans-serif;
+  color: #017df7;
+  padding: 14px 20px;
+  border: 1px solid #1089d4;
+  border-radius: 10px;
+  text-decoration: none;
+  line-height: 22px;
+}
+.grey .owl-carousel .item .min-blue:hover {
+  background: #3498db;
+  color: #fff;
+  transition: 0.4s ease-in-out;
+}
+.customize .circle {
+  background: #fcfcfc;
+  margin: 10px 25px 25px 0;
+  border: 1px solid #eaeaea;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 40px;
+}
+.customize .circle i {
+  color: #1089d4;
+}
+.customize .circle .fa-chart-line {
+  padding: 18px 20px;
+}
+.customize .circle .fa-network-wired {
+  padding: 18px 15px;
+}
+.customize .circle .fa-rocket {
+  padding: 20px 18px;
+}
+.customize h4 {
+  font: 600 26px "Dosis", sans-serif;
+  color: #071e55;
+  margin: 0 0 5px;
+  line-height: 1.2;
+}
+.customize p {
+  font: 400 17px "Open Sans", sans-serif;
+  color: #7c8595;
+  margin: 0 0 15px;
+  line-height: 28px;
+}
+.sliden img {
+  box-shadow: 0px 8px 40px 0 rgba(0, 0, 0, 0.15);
+}
+.light-blue {
+  background: #1e90ff;
+  padding: 50px 0;
+}
+.light-blue .video {
+  position: relative;
+}
+.light-blue .video img {
+  border-radius: 8px;
+}
+.light-blue .video a {
+  display: inline-block;
+  position: absolute;
+  margin: -50px 0 0 -50px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 20 30px;
+  background: #fff;
+  left: 50%;
+  top: 50%;
+}
+.light-blue .video a .fa-play {
+  font-size: 40px;
+  position: absolute;
+  left: 35%;
+  top: 30%;
+}
+.light-blue .text-white h2 {
+  font: 600 36px "Dosis", sans-serif;
+  margin: 0 0 20px;
+  line-height: 1.2;
+}
+.light-blue .text-white p {
+  font: 400 17px "Open Sans", sans-serif;
+  margin: 0 0 15px;
+  line-height: 28px;
+}
+.grey-one {
+  background: #fafbfc;
+  padding-top: 60px;
+}
+.grey-one h2 {
+  font: 600 36px "Dosis", sans-serif;
+  color: #071e55;
+  margin: 0 0 10px;
+  line-height: 1.2;
+}
+.grey-one p {
+  font: 400 18px "Open Sans", sans-serif;
+  color: #7c8595;
+  margin: 0 0 15px;
+  line-height: 28px;
+}
+.grey-one .price-box {
+  padding: 40px 0 30px;
+  background: #fff;
+  border-radius: 8px;
+  border-bottom: 3px solid #d6d2d2;
+  margin: 50px 0;
+  position: relative;
+  overflow: hidden;
+}
+.grey-one .price-box:hover {
+  border-bottom: 3px solid #1089d4;
+  transition: 0.8s ease-in-out;
+}
+.grey-one .price-box .pricing-list {
+  margin: 0 0 20px;
+  padding: 0 55px;
+}
+.grey-one .price-box .pricing-list .price-title {
+  font: 700 20px "Open Sans", sans-serif;
+  color: #071e55;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+.grey-one .price-box .pricing-list .price-value {
+  font: 600 70px "Dosis", sans-serif;
+  color: #071e55;
+  margin: 20px 0 10px;
+  line-height: 70px;
+}
+.grey-one .price-box .pricing-list .price-subtitle {
+  font: 600 16px "Open Sans", Sans-serif;
+  color: #6a6a6a;
+  margin: 0 0 30px;
+  line-height: 24px;
+}
+.grey-one .price-box .pricing-list .fa-check {
+  color: #1089d4;
+  margin-top: -3px;
+  margin-right: 5px;
+}
+.grey-one .price-box .pricing-list .price-text {
+  font: 400 16px "Open Sans", sans-serif;
+  color: #6a6a6a;
+  margin: 0 0 5px;
+  line-height: 28px;
+}
+.grey-one .price-box .pricing-list a {
+  display: inline-block;
+  font: 600 15px "Open Sans", sans-serif;
+  color: #1e90ff;
+  margin: 30px 0 5px;
+  padding: 15px 30px;
+  text-decoration: none;
+  border: 1px solid #1e90ff;
+  border-radius: 5px;
+}
+.grey-one .price-box .pricing-list a:hover {
+  background: #017df7;
+  color: #fff;
+  transition: 0.6s ease-in-out;
+}
+.grey-one .price-box .pricing-list .activeb {
+  color: #fff;
+  background: #1e90ff;
+}
+.grey-one .price-box .pricing-list .activeb:hover {
+  background: #017df7;
+}
+.grey-one .price-box .popular {
+  font: 900 10px "Open Sans", sans-serif;
+  background: #3498db;
+  padding: 3px 30px;
+  color: #fff;
+  position: absolute;
+  right: -24px;
+  top: 22px;
+  transform: rotate(405deg);
+}
+.titles {
+  padding: 120px 15px 0;
+}
+.titles .single {
+  font: 300 28px "Open Sans", sans-serif;
+  color: #7c8595;
+  margin: 0 0 28px;
+  line-height: 38px;
+  font-style: italic;
+}
+.titles h5 {
+  font: 600 20px "Dosis", sans-serif;
+  color: #071e55;
+  margin: 0 0 5px;
+  line-height: 1.2;
+}
+.titles .ceo {
+  font: 400 17px "Open Sans", sans-serif;
+  color: #017df7;
+  margin: 0 0 15px;
+  line-height: 28px;
+}
+.johanna {
+  padding: 0 15px;
+}
+.partners {
+  background: #fafbfc;
+  padding: 50px 0 25px;
+}
+.partners h3 {
+  font: 600 30px "Dosis", sans-serif;
+  color: #071e55;
+  margin: 0 0 20px;
+  line-height: 1.2;
+}
+.partners .mentions {
+  align-items: center;
+}
+.partners .mentions img {
+  max-height: 62px;
+  opacity: 0.4;
+  margin: 0 30px;
+}
+.partners .mentions img:hover {
+  opacity: 0.8;
+  transition: 0.6s ease-in-out;
+}
+.small {
+  padding: 90px 0 70px;
+}
+.small .shadow img {
+  box-shadow: 0px 8px 40px 0 rgba(0, 0, 0, 0.15);
+}
+.small .asked h3 {
+  font: 600 30px "Dosis", sans-serif;
+  color: #071e55;
+  margin: 0 0 20px;
+  line-height: 1.2;
+}
+.small .asked .uk-accordion-title {
+  font: 600 19px "Dosis", sans-serif;
+  color: #071e55;
+}
+.small .asked .uk-accordion-content p {
+  font: 400 17px "Open Sans", sans-serif;
+  color: #7c8595;
+  padding: 20px 0 10px;
+  border-top: 2px solid #1e90ff;
+}
+.small .asked .uk-accordion-title::before {
+  width: 1.4em;
+  height: 1.4em;
+  margin-left: 10px;
+  float: right;
+  background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2213%22%20height%3D%2213…22%20height%3D%2213%22%20x%3D%226%22%20y%3D%220%22%20%2F%3E%0A%3C%2Fsvg%3E);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}

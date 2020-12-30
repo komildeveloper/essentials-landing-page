@@ -1,0 +1,520 @@
+$basic-color: #3b64d2;
+$secondary-color: #405263;
+$extrenal-color: #1089d4;
+$primary-color: #071e55;
+$text-color: #7c8595;
+$heading-color: #292929;
+$btn-color: #017df7;
+$hover-color: #3498db;
+$bg-color: #1e90ff;
+$dark-color: #6a6a6a;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+// Navbar
+.container-fluid {
+    // box-shadow: 1px 1px 1px 1px rgba(59, 58, 58, 0.295);
+
+    .navbar {
+
+        .navbar-toggler {
+            outline: none;
+            border: 1px solid $extrenal-color;
+        }
+
+        .navbar-brand {
+            font: 600 28px 'Dosis' , sans-serif;
+            color: $basic-color;
+            padding: 20px 0;
+
+            &:hover {
+                color: $basic-color;
+            }
+        }
+
+        .nav-item {
+
+            .nav-link {
+                color: $secondary-color;
+                font: 600 18px 'Dosis', sans-serif;
+                line-height: 30px;
+                padding: 10px 20px;
+
+                &:hover {
+                    color: $basic-color!important;
+                }
+            }
+
+            .actived {
+                color: $basic-color;
+            }
+            
+            .extrenal {
+                font: 600 18px 'Dosis', sans-serif;
+                line-height: 30px !important;
+                border: 1px solid $extrenal-color;
+                border-radius: 10px;
+                padding: 12px 18px!important;
+                margin-left: 10px;
+                margin-right: 15px;
+                text-decoration: none;
+                display: inline-block;
+
+                &:hover {
+                    color: #fff;
+                    background: $extrenal-color;
+                    transition: .6s;
+                }
+            }
+            
+        }
+    }
+}
+
+
+// Section-One
+.welcome {
+
+    h1 {
+        font: 600 42px 'Dosis', sans-serif;
+        color: $primary-color;
+        margin: 0 0 20px;
+        line-height: 1.2;
+        width: 80%;
+    }
+
+    p {
+        font: 400 18px 'Open Sans', sans-serif;
+        color: $secondary-color;
+        margin: 0 0 30px;
+        line-height: 30px;
+    }
+
+    .blue {
+        display: inline-block;
+        font: 600 18px 'Dosis', sans-serif;
+        color: #fff;
+        background: $extrenal-color;
+        text-decoration: none;
+        padding: 20px 30px;
+        box-shadow: 0px 8px 40px 0 rgba(0, 0, 0, 0.37);
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+        letter-spacing: 1px;
+        border-radius: 5px;
+        margin: 0 0 25px;
+
+        &:hover {
+            box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.5);
+            background: $hover-color;
+            transition: .3s ease-in-out;
+        }
+    }
+
+}
+
+// Section-Two
+.grey {
+    border-top: .4px solid #d1cfcf;
+    background: #fafbfc;
+
+    h2 {
+        font: 600 36px 'Dosis', sans-serif;
+        color: $primary-color;
+        margin: 0 0 10px;
+        line-height: 1.2;
+    }
+
+    p {
+        font: 400 18px 'Open Sans', sans-serif;
+        color: $text-color;
+        margin: 0 0 15px;
+        line-height: 28px;
+    }
+
+    .owl-carousel {
+        .item {
+
+            h3 {
+                font: 600 26px 'Dosis', sans-serif;
+                color: $heading-color;
+                margin: 15px 0;
+                line-height: 1.2;
+            }
+
+            p {
+                font: 400 17px 'Open Sans', sans-serif;
+                color: $text-color;
+                margin: 0 0 25px;
+                padding: 0 10px;
+                line-height: 28px;
+            }
+
+            .min-blue {
+                display: inline-block;
+                font: 600 16px 'Dosis', sans-serif;
+                color: $btn-color;
+                padding: 14px 20px;
+                border: 1px solid $extrenal-color;
+                border-radius: 10px;
+                text-decoration: none;
+                line-height: 22px;
+
+                &:hover {
+                    background: $hover-color;
+                    color: #fff;
+                    transition: .4s ease-in-out;
+                }
+            }
+
+        }
+    }
+
+}
+
+// Section-Three
+.customize {
+
+    .circle {
+        background: #fcfcfc;
+        margin: 10px 25px 25px 0;
+        border: 1px solid #eaeaea;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 40px;
+
+        i {
+            color: $extrenal-color;
+        }
+
+        .fa-chart-line {
+            padding: 18px 20px;
+        }
+
+        .fa-network-wired {
+            padding: 18px 15px;
+        }
+
+        .fa-rocket {
+            padding: 20px 18px;
+        }
+
+    }
+
+    h4 {
+        font: 600 26px 'Dosis', sans-serif;
+        color: $primary-color;
+        margin: 0 0 5px;
+        line-height: 1.2;
+    }
+
+    p {
+        font: 400 17px 'Open Sans', sans-serif;
+        color: $text-color;
+        margin: 0 0 15px;
+        line-height: 28px;
+    }
+
+}
+
+.sliden {
+
+    img {
+        box-shadow: 0px 8px 40px 0 rgba(0, 0, 0, 0.15);
+    }
+
+}
+
+// Section Four
+.light-blue {
+    background: $bg-color;
+    padding: 50px 0;
+
+    .video {
+
+        position: relative;
+
+        img {
+            border-radius: 8px;
+        }
+
+        a {
+            display: inline-block;
+            position: absolute;
+            margin: -50px 0 0 -50px;
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            padding: 20 30px;
+            background: #fff;
+            left: 50%;
+            top: 50%;
+ 
+            .fa-play {
+                font-size: 40px;
+                position: absolute;
+                left: 35%;
+                top: 30%;
+            }
+
+        }
+
+    }
+
+    .text-white {
+
+        h2 {
+            font: 600 36px 'Dosis', sans-serif;
+            margin: 0 0 20px;
+            line-height: 1.2;
+        }
+
+        p {
+            font: 400 17px 'Open Sans', sans-serif;
+            margin: 0 0 15px;
+            line-height: 28px;
+        }
+
+    }
+}
+
+// Section Five
+.grey-one {
+    background: #fafbfc;
+    padding-top: 60px;
+
+    h2 {
+        font: 600 36px 'Dosis', sans-serif;
+        color: $primary-color;
+        margin: 0 0 10px;
+        line-height: 1.2;
+    }
+
+    p {
+        font: 400 18px 'Open Sans', sans-serif;
+        color: $text-color;
+        margin: 0 0 15px;
+        line-height: 28px;
+    }
+
+    .price-box {
+
+        padding: 40px 0 30px;
+        background: #fff;
+        border-radius: 8px;
+        border-bottom: 3px solid #d6d2d2;
+        margin: 50px 0;
+        position: relative;
+        overflow: hidden;
+
+        &:hover {
+            border-bottom: 3px solid $extrenal-color;
+            transition: .8s ease-in-out;
+        }
+
+        .pricing-list {
+            margin: 0 0 20px;
+            padding: 0 55px;
+    
+            .price-title {
+                font: 700 20px 'Open Sans', sans-serif;
+                color: $primary-color;
+                line-height: 24px;
+                letter-spacing: 1px;
+            }
+    
+            .price-value {
+                font: 600 70px 'Dosis', sans-serif;
+                color: $primary-color;
+                margin: 20px 0 10px;
+                line-height: 70px;
+            }
+            
+            .price-subtitle {
+                font: 600 16px 'Open Sans', Sans-serif;
+                color: $dark-color;
+                margin: 0 0 30px;
+                line-height: 24px;
+            }
+
+            .fa-check {
+                color: $extrenal-color;
+                margin-top: -3px;
+                margin-right: 5px;
+            }
+
+            .price-text {
+                font: 400 16px 'Open Sans', sans-serif;
+                color: $dark-color;
+                margin: 0 0 5px;
+                line-height: 28px;
+            }
+
+            a {
+                display: inline-block;
+                font: 600 15px 'Open Sans', sans-serif;
+                color: $bg-color;
+                margin: 30px 0 5px;
+                padding: 15px 30px;
+                text-decoration: none;
+                border: 1px solid $bg-color;
+                border-radius: 5px;
+
+                &:hover {
+                    background: $btn-color;
+                    color: #fff;
+                    transition: .6s ease-in-out;
+                }
+            }
+
+            .activeb {
+                color: #fff;
+                background: $bg-color;
+
+                &:hover {
+                    background: $btn-color;
+                }
+            }
+
+        }
+
+        .popular {
+            font: 900 10px 'Open Sans', sans-serif;
+            background: $hover-color;
+            padding: 3px 30px;
+            color: #fff;
+            position: absolute;
+            right: -24px;
+            top: 22px;
+            transform: rotate(405deg);
+        }
+
+    }
+    
+}
+
+//Section Six
+.titles {
+
+    padding: 120px 15px 0;
+
+    .single {
+        font: 300 28px 'Open Sans', sans-serif;
+        color: $text-color;
+        margin: 0 0 28px;
+        line-height: 38px;
+        font-style: italic;
+    }
+
+    h5 {
+        font: 600 20px 'Dosis', sans-serif;
+        color: $primary-color;
+        margin: 0 0 5px;
+        line-height: 1.2;
+    }
+
+    .ceo {
+        font: 400 17px 'Open Sans', sans-serif;
+        color: $btn-color;
+        margin: 0 0 15px;
+        line-height: 28px; 
+    }
+
+}
+
+.johanna {
+    padding: 0 15px;
+}
+
+// Section Seven
+.partners {
+    background: #fafbfc;
+    padding: 50px 0 25px;
+
+    h3 {
+        font: 600 30px 'Dosis', sans-serif;
+        color: $primary-color;
+        margin: 0 0 20px;
+        line-height: 1.2;
+    }
+
+    .mentions {
+
+        align-items: center;
+
+        img {
+            max-height: 62px;
+            opacity: .4;
+            margin: 0 30px;
+
+            &:hover {
+                opacity: .8;
+                transition: .6s ease-in-out;
+            }
+        }
+
+    }
+
+}
+
+// Section Eight
+.small {
+    padding: 90px 0 70px;
+
+    .shadow {
+
+        img {
+            box-shadow: 0px 8px 40px 0 rgba(0, 0, 0, 0.15);
+        }
+        
+    }
+
+    .asked {
+
+        h3 {
+            font: 600 30px 'Dosis', sans-serif;
+            color: $primary-color;
+            margin: 0 0 20px;
+            line-height: 1.2;
+        }
+
+        .uk-accordion-title {
+            font: 600 19px 'Dosis', sans-serif;
+            color: $primary-color;
+        }
+
+        .uk-accordion-content {
+
+            p {
+                font: 400 17px 'Open Sans', sans-serif;
+                color: $text-color;
+                padding: 20px 0 10px;
+                border-top: 2px solid $bg-color;
+            }
+
+        }
+
+        .uk-accordion-title::before {
+            width: 1.4em;
+            height: 1.4em;
+            margin-left: 10px;
+            float: right;
+            background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2213%22%20height%3D%2213…22%20height%3D%2213%22%20x%3D%226%22%20y%3D%220%22%20%2F%3E%0A%3C%2Fsvg%3E);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+        }
+
+    }
+
+}
